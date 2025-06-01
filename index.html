@@ -6,9 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
+
+    <div class="showfullimages">
+        <div>
+            <img src="" alt=".." id="showfullimages">
+        </div>
+        <span class="closebox">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="#000">
+                <path
+                    d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z">
+                </path>
+            </svg>
+        </span>
+    </div>
+
     <div class="headerContainer">
         <video src="./assets/video/video.mp4" autoplay loop muted></video>
         <div class="headerbox">
@@ -20,6 +35,10 @@
                 <div class="logobox">
                     <a href="./index.html"><img src="./assets/img/logo.png" alt="..."></a>
                 </div>
+                <span class="opennav"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"
+                        fill="#fff">
+                        <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+                    </svg></span>
                 <ul>
                     <a href="aboutus.html">About Us</a>
                     <a href="./contact.html">Contact Us</a>
@@ -39,11 +58,27 @@
                 </svg>
             </span>
         </div>
+        <div class="mobileheader">
+            <span class="closenav">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50" fill="#fff">
+                    <path
+                        d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z">
+                    </path>
+                </svg>
+            </span>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="upcoming.html">Upcoming Shows</a>
+                <a href="aboutus.html">About Us</a>
+                    <a href="./contact.html">Contact Us</a>
+            </ul>
+        </div>
     </div>
 
     <div class="pages2">
         <div class="leftbox">
-            <img src="https://i0.wp.com/www.photoshelter.com/img-get/I0000OZ2KorQItVo/s/1000/pulse-fest-bass-atmosphere-1503.jpg?w=1170"
+            <img class="images"
+                src="https://i0.wp.com/www.photoshelter.com/img-get/I0000OZ2KorQItVo/s/1000/pulse-fest-bass-atmosphere-1503.jpg?w=1170"
                 alt="...">
             <span class="featurename">Featured</span>
         </div>
@@ -303,18 +338,20 @@
         </div>
         <div class="aboutrightbox">
             <div class="box11">
-                <img src="https://media.licdn.com/dms/image/v2/C4D0BAQEtQyvDYUVJnA/company-logo_200_200/company-logo_200_200/0/1659459359589/ce_rental_inc_logo?e=2147483647&v=beta&t=Ep6oP666hvXHmD1HVwIlZEC1k10BBSgAUYosn6CPkmM"
+                <img class="images"
+                    src="https://media.licdn.com/dms/image/v2/C4D0BAQEtQyvDYUVJnA/company-logo_200_200/company-logo_200_200/0/1659459359589/ce_rental_inc_logo?e=2147483647&v=beta&t=Ep6oP666hvXHmD1HVwIlZEC1k10BBSgAUYosn6CPkmM"
                     alt="...">
             </div>
             <div class="box11">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTi0eOrZh0pvpyWRTKaGUt0gqQv6jVB8UQw&s"
+                <img class="images"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTi0eOrZh0pvpyWRTKaGUt0gqQv6jVB8UQw&s"
                     alt="...">
             </div>
             <div class="box11">
-                <img src="https://www.iiad.edu.in/wp-content/uploads/2024/07/image2-4.webp" alt="...">
+                <img class="images" src="https://www.iiad.edu.in/wp-content/uploads/2024/07/image2-4.webp" alt="...">
             </div>
             <div class="box11">
-                <img src="https://cms.artcenter.edu/image/22425/b21/0.6,0.58/small" alt="...">
+                <img class="images" src="https://cms.artcenter.edu/image/22425/b21/0.6,0.58/small" alt="...">
             </div>
         </div>
     </div>
@@ -478,35 +515,43 @@
     <div class="pages6">
         <div class="eventgallarybox">
             <div class="boxx">
-                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="images"
+                    src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="...">
             </div>
             <div class="boxx">
-                <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="images"
+                    src="https://images.unsplash.com/photo-1531058020387-3be344556be6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="...">
             </div>
             <div class="boxx">
-                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="images"
+                    src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="...">
             </div>
             <div class="boxx">
-                <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="images"
+                    src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="...">
             </div>
             <div class="boxx">
-                <img src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="images"
+                    src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="...">
             </div>
             <div class="boxx">
-                <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="images"
+                    src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="...">
             </div>
             <div class="boxx">
-                <img src="https://images.unsplash.com/photo-1561489396-888724a1543d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="images"
+                    src="https://images.unsplash.com/photo-1561489396-888724a1543d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="...">
             </div>
             <div class="boxx">
-                <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                <img class="images"
+                    src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="...">
             </div>
 
@@ -533,7 +578,8 @@
     <!-- script cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="./assets/js/script.js"></script>    
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/function.js"></script>
 </body>
 
 </html>

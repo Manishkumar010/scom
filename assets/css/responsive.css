@@ -1,0 +1,159 @@
+@media only screen and (max-width:766px) {
+    .headerContainer .headerbox header {
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0px;
+        justify-content: space-between;
+        padding: 0 2em;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .headerContainer .headerbox header>ul {
+        display: none;
+    }
+
+    .headerContainer .headerbox nav {
+        width: 100%;
+        height: 100vh;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        position: fixed;
+        background-color: #000;
+    }
+
+    .headerContainer .headerbox h1 {
+        font-size: 4em;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .headerContainer .headerbox p {
+        font-size: 1em;
+        width: 96%;
+    }
+
+    .headerContainer .headerbox div {
+        flex-direction: column;
+    }
+
+    .headerContainer .headerbox div .btn2 {
+        width: 220px;
+    }
+
+    .pages2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .pages2 .leftbox {
+        width: 100%;
+        height: 240px;
+    }
+
+    .pages2 .rightbox {
+        width: 100%;
+    }
+
+    .eventHeadingbox {
+        text-align: center;
+    }
+
+    .eventHeadingbox h2 {
+        font-size: 2em;
+    }
+
+    .eventHeadingbox p {
+        width: 100%;
+    }
+
+    .pages3 {
+        padding: 2em 1em;
+    }
+
+    .pages3 .cardlistbox .small-cards {
+        width: 100%;
+    }
+
+    .pages4 {
+        padding: 2em 1em;
+        flex-direction: column;
+    }
+
+    .pages4 .aboutleftbox {
+        width: 100%;
+    }
+
+    .pages4 .aboutleftbox .aboutsm-box div {
+        height: 200px;
+    }
+
+    .pages4 .aboutrightbox {
+        width: 100%;
+        margin-top: 1em;
+        gap: 1.4em;
+    }
+
+    .pages4 .aboutrightbox .box11 {
+        width: 100%;
+    }
+
+    .pages4 .aboutrightbox .box11 img {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+    }
+
+    .reviewcontainer {
+        flex-direction: column;
+        padding: 2em 1em;
+    }
+
+    .opennav {
+        display: flex;
+    }
+
+    .reviewcontainer .reviewbox {
+        width: 100%;
+    }
+
+    .eventgallarybox .boxx {
+        width: 100%;
+    }
+
+    .eventgallarybox .boxx img {
+        filter: grayscale(20%);
+        -webkit-filter: grayscale(20%);
+    }
+
+    .mobileheader {
+        display: flex;
+        width: 0;
+        overflow: hidden;
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+    }
+
+    footer{
+        padding: 2em 1em;
+        flex-direction: column;
+    }
+    footer div h4{
+        padding-bottom: 0.6em;
+        margin-bottom: 0.4em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.745);
+    }
+    .showfullimages div {
+        width: 80%;
+        height: 60%;
+        background-color: #fff;
+    }
+
+}
+
+/* @media only screen and (min-width: 768px) and (max-width:1023px) */
