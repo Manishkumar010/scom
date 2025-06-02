@@ -88,7 +88,7 @@
     }
 
     .pages4 .aboutleftbox .aboutsm-box div {
-        height: 200px;
+        height: auto;
     }
 
     .pages4 .aboutrightbox {
@@ -100,7 +100,13 @@
     .pages4 .aboutrightbox .box11 {
         width: 100%;
     }
+    .pages2 .rightbox .contentlist{
+        gap: 0.3em;
+    }
 
+    .headerContainer .headerbox header .logobox{
+        width: 180px;
+    }
     .pages4 .aboutrightbox .box11 img {
         filter: grayscale(0%);
         -webkit-filter: grayscale(0%);
