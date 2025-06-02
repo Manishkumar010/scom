@@ -4,7 +4,6 @@ window.addEventListener('resize', () => {
 });
 ScrollTrigger.refresh(true);
 window.addEventListener('touchmove', ScrollTrigger.update);
-let tl = gsap.timeline();
 
 function hamburger() {
     let menuTl = gsap.timeline({ paused: true });

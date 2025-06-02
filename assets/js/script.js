@@ -11,11 +11,11 @@ tl.from(".headerContainer .headerbox header", 0.4, {
     opacity: 0,
 })
 
-tl.from(".headerContainer .headerbox header ul a", 0.4, {
-    y: -30,
-    opacity: 0,
-    stagger: 0.3
-}, "same")
+// tl.from(".headerContainer .headerbox header ul a", 0.4, {
+//     y: -30,
+//     opacity: 1,
+//     stagger: 0.3
+// }, "same")
 
 tl.from(".headerContainer .headerbox header .logobox", 0.5, {
     y: -30,
