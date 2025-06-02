@@ -1,5 +1,9 @@
 gsap.registerPlugin(ScrollTrigger);
-
+window.addEventListener('resize', () => {
+    ScrollTrigger.refresh();
+});
+ScrollTrigger.refresh(true);
+window.addEventListener('touchmove', ScrollTrigger.update);
 let tl = gsap.timeline();
 
 tl.from(".headerContainer .headerbox header", 0.4, {
