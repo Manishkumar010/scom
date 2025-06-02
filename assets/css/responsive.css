@@ -159,6 +159,17 @@
         width: 100%;
         align-items: flex-start;
     }
+    .pages2 .rightbox .viewdetailsbox{
+        flex-wrap: wrap;
+    }
+
+    .pages4 .aboutleftbox>p{
+        width: 100%;
+    }
+    .pages2 .rightbox>p{
+        text-align: justify;
+        width: 100%;
+    }
 
 }
 
