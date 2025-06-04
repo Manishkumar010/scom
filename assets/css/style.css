@@ -114,7 +114,7 @@ html {
 
 .headerContainer .headerbox p {
     font-size: 1.6em;
-    width: 62%;
+    width: 70%;
     line-height: 34px;
     text-align: center;
     text-transform: capitalize;
@@ -162,7 +162,7 @@ html {
 }
 
 .headerContainer .headerbox .updownarrow {
-    margin-top: 2em;
+    margin-top: 1em;
     animation: arrow 1.5s infinite;
     -webkit-animation: arrow 1.5s infinite;
 }
